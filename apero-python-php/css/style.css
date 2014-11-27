@@ -1,0 +1,82 @@
+/**
+ * Coding Dojo TDD v0.1
+ *
+ * Copyright (c) 2013 Olivier Perez
+ */
+
+.fvt {
+	border-left: solid 0.6em #0071B5;
+}
+.fvt.title {
+	background: #0071B5;
+	border: none;
+	color: white;
+}
+
+/* Live coding */
+.live-coding {
+	border-left: solid 0.6em #FFA500;
+}
+.live-coding.title {
+	background: #FFA500;
+	border: none;
+	color: white;
+}
+
+/* Workshop */
+.workshop {
+	border-left: solid 0.6em #DD1B16;
+}
+.workshop.title {
+	background: #DD1B16;
+	border: none;
+	color: white;
+}
+
+/* Congratulations */
+.congratulations {
+	border-left: solid 0.6em #009900;
+}
+.congratulations.title {
+	background: #009900;
+	border: none;
+	color: white;
+}
+
+section.title h1 {
+	font-weight: bold;
+}
+
+#for-developers .euse {
+	display: none;
+}
+
+ol {
+	list-style-position: inside;
+}
+ul {
+	list-style: disc inside;
+}
+ul.nodisc{
+	list-style: none;
+}
+
+.lower {
+	font-size: 0.8em;
+}
+
+
+.pagination {
+	font-size: 1.00em;
+}
+pre code {
+  background-color: inherit;
+}
+
+pre .xml .javascript {
+  opacity: 1;
+}
+
+img.alignwithtext {
+	vertical-align:middle;
+}

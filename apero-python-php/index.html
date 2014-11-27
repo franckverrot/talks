@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Apéro Python - PHP</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="components/normalize-css/normalize.css" />
+  <link rel="stylesheet" href="components/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="components/highlightjs/styles/tomorrow.css" />
+  <link rel="stylesheet" href="css/ruban.css" />
+  <link rel="stylesheet" href="css/ruban-print.css" media="print" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <section>
+    <pre style="text-align: center; font-family: 'Source Code Pro';">Ruby<br/><span class="lower">Présentation intéractive</span>
+  </section>
+
+ 
+  <section class="no-toc">
+    <h1>Franck Verrot</h1>
+    <ul class="nodisc">
+      <li><i class="fa fa-building-o"></i> <a href="http://atosworldline.net" title="Atos Worldline" target="_blank">Worldline</a></li>
+      <li><i class="fa fa-twitter"></i>    <a href="https://twitter.com/franckverrot" title="@franckverrot sur Twitter" target="_blank">@franckverrot</a></li>
+      <li><i class="fa fa-github"></i>     <a href="https://github.com/franckverrot" title="@franckverrot sur GitHub" target="_blank">@franckverrot</a></li>
+    </ul>
+  </section>
+
+  <section>
+<h1>Présentation sur Ruby</h1>
+</section>
+<section>
+<h1>Historique</h1>
+
+<ul>
+<li>Créé en 1993 par "Matz", publié en 1995</li>
+<li>Inspiré (entre autres) par:
+<ul><li>Perl</li>
+<li>SmallTalk</li></ul></li>
+<li>Multi-paradigmes (OOP, FP, ...)</li>
+</ul>
+</section>
+<section>
+<h1>Philosophie</h1>
+
+<ul>
+<li>Productivité
+<ul><li>Langage expressif</li>
+<li>Accent sur les tests (minitest longtemps "core")</li></ul></li>
+<li>Fun
+<ul><li>Langage dynamique (introspection, ...)</li>
+<li>Sa "communauté"</li></ul></li>
+</ul>
+</section>
+<section>
+<h1>Concepts</h1>
+
+<ul>
+<li>gem : Biblothèque réutilisable</li>
+<li>CRuby/MRI : VM Ruby "historique"</li>
+<li>Compilé? Interprêté? : <code>¯\_(ツ)_/¯</code></li>
+</ul>
+</section>
+<section>
+<h1>Du code...</h1>
+
+<ul>
+<li>Classes/Modules</li>
+<li>Méthodes</li>
+<li>Blocks/Closures</li>
+<li>Lambdas/Procs</li>
+<li>Metaprogramming</li>
+</ul>
+</section>
+<section>
+<h1>Ecosystème</h1>
+
+<ul>
+<li>rspec : Framework de test / DSL</li>
+<li>bundler : gestion des dépendances</li>
+<li>sinatra/rails : frameworks Web</li>
+<li>rubygems.org : publication de "gems"</li>
+</ul>
+</section>
+<section>
+<h1>VMs</h1>
+
+<ul>
+<li>MRI : Par défaut</li>
+<li>mruby : Ruby selon la spécification IEEE</li>
+<li>JRuby : Ruby sur la JVM</li>
+<li>Rubinius : Ruby en Ruby</li>
+<li>RubyMotion : Ruby on iOS</li>
+</ul>
+</section>
+
+
+
+  <!-- Questions -->
+
+  <section class="questions">
+    <h1>Questions ?</h1>
+
+  </section>
+
+  <!-- End -->
+
+  <script src="components/jquery/jquery.min.js"></script>
+  <script src="components/keymaster/keymaster.js"></script>
+  <script src="components/hammerjs/hammer.min.js"></script>
+  <script src="components/highlightjs/highlight.pack.js"></script>
+  <script src="js/ruban.js"></script>
+  <script>
+    var ruban = new Ruban({
+      pagination: true,
+      bindClicks : false,
+      ratio: 16/9
+    });
+  
+    //$('a').click(function(evt){evt.stopPropagation()});
+  </script>
+</body>
+</html>
